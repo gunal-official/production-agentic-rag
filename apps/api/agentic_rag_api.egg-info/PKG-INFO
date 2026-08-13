@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: agentic-rag-api
+Version: 0.1.0
+Summary: Production Agentic RAG Platform API
+Requires-Python: <3.14,>=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: sqlalchemy[asyncio]
+Requires-Dist: asyncpg
+Requires-Dist: psycopg[binary]
+Requires-Dist: alembic
+Requires-Dist: python-multipart
+Requires-Dist: httpx
+Requires-Dist: pgvector
+Requires-Dist: sentence-transformers
+Requires-Dist: openai
+Requires-Dist: pypdf
+Requires-Dist: python-docx
+Requires-Dist: langgraph
+Requires-Dist: arize-phoenix
+Requires-Dist: arize-phoenix-otel
+Requires-Dist: openinference-instrumentation
+Requires-Dist: openinference-instrumentation-langchain
+Requires-Dist: openinference-instrumentation-openai
+Requires-Dist: slowapi
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"

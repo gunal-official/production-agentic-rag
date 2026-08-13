@@ -1,0 +1,150 @@
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.
+
+Enterprise Agentic RAG Platform is a production-oriented AI system.
+
+The platform supports document ingestion, parsing, chunking,
+vector retrieval, hybrid search, reranking, agent orchestration,
+evaluation, and observability.
+
+FastAPI is used for the backend API.
+PostgreSQL stores application data.
+pgvector stores document embeddings.
+
+LangGraph will later coordinate agent workflows.
+
+The goal is to provide reliable answers grounded in uploaded
+enterprise documents.

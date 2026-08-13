@@ -1,0 +1,55 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: agentic-rag-postgres
+
+    environment:
+      POSTGRES_DB: agentic_rag
+      POSTGRES_USER: agentic_rag
+      POSTGRES_PASSWORD: agentic_rag
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U agentic_rag -d agentic_rag",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ./apps/api
+
+    container_name: agentic-rag-api
+
+    environment:
+      APP_NAME: Enterprise Agentic RAG API
+      APP_ENV: production
+
+      DATABASE_URL: postgresql+asyncpg://agentic_rag:agentic_rag@postgres:5432/agentic_rag
+
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.3-70b-versatile}
+
+      PHOENIX_ENABLED: "false"
+
+    ports:
+      - "8000:8000"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+volumes:
+  postgres_data:
