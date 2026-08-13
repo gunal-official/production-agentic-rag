@@ -19,7 +19,7 @@ ALLOWED_CONTENT_TYPES = {
 
 MAX_FILE_SIZE = 10 * 1024 * 1024
 
-UPLOAD_DIR = Path("../../data/uploads").resolve()
+UPLOAD_DIR = Path("/tmp/uploads")
 
 
 class DocumentService:
