@@ -31,6 +31,24 @@ def get_settings() -> Settings:
             "DATABASE_URL is not configured"
         )
 
+    if settings.database_url.startswith(
+        "postgres://"
+    ):
+        settings.database_url = settings.database_url.replace(
+            "postgres://",
+            "postgresql+asyncpg://",
+            1,
+        )
+
+    elif settings.database_url.startswith(
+        "postgresql://"
+    ):
+        settings.database_url = settings.database_url.replace(
+            "postgresql://",
+            "postgresql+asyncpg://",
+            1,
+        )
+
     return settings
 
 
